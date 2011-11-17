@@ -1,0 +1,17 @@
+
+var PhoneDialer = function() {
+    
+}
+
+// call this to register for push notifications
+PushNotification.prototype.dial = function(phnum) {
+    PhoneGap.exec(null, null, "PhoneDialer", "dialPhone", [{"number":phnum,}]);
+};
+
+
+PhoneGap.addConstructor(function() {
+    if(!window.plugins) {
+        window.plugins = {};
+    }
+    window.plugins.phoneDialer = new PhoneDialer();
+});
