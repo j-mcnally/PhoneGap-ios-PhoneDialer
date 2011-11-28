@@ -3,7 +3,7 @@ Usage
 
 ```javascript
 
-window.plugins.pushNotification.dial('555-555-5555');
+window.plugins.phoneDialer.dial('555-555-5555');
 
 ```
 
