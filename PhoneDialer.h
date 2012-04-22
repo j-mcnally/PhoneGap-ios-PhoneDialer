@@ -6,9 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <PhoneGap/PGPlugin.h>
+#import <Cordova/CDVPlugin.h>
 
-@interface PhoneDialer : PGPlugin
+@interface PhoneDialer : CDVPlugin
 
 - (void) dialPhone:(NSMutableArray *)arguments withDict:(NSMutableDictionary *) options;
 
