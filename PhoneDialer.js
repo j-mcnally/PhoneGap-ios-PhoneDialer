@@ -9,7 +9,7 @@ PhoneDialer.prototype.dial = function(phnum) {
 };
 
 
-PhoneGap.addConstructor(function() {
+cordova.addConstructor(function() {
     if(!window.plugins) {
         window.plugins = {};
     }
