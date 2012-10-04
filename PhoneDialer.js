@@ -3,7 +3,7 @@ var PhoneDialer = function() {
 }
 
 PhoneDialer.prototype.dial = function(phnum) {
-    cordova.exec("PhoneDialer.dialPhone", [{"number" : phnum }]);
+    cordova.exec("PhoneDialer.dialPhone", {"number" : phnum });
 };
 
 if(!window.plugins) {
