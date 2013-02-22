@@ -1,12 +1,13 @@
 //
 //  PhoneDialer.m
+
 //
-//  Revised by Trevor Cox 01/06/12
-//   Copyright (c) 2012 Appazur Solutions Inc.
+//  Created by Justin McNally on 11/17/11.
+//  Copyright (c) 2011 Kohactive. All rights reserved.
 //
-//  Original created by Justin McNally on 11/17/11.
-//   Copyright (c) 2011 Kohactive. All rights reserved.
-//
+//  Revised by Trevor Cox of Appazur Solutions Inc. on 01/06/12
+
+
 
 #import "PhoneDialer.h"
 
