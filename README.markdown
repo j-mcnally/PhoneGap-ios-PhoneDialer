@@ -16,4 +16,4 @@ Copy the .js file to your www folder
 
 include the .js file with a script tag in your index.html
 
-Add "phonedialer" ----> "PhoneDialer" to your plugins mapping in PhoneGap.plist
+Add "phonedialer" ----> "PhoneDialer" to your plugins mapping in config.xml
