@@ -17,6 +17,12 @@
 - (void) dialPhone:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options {
     NSString* url;
     NSString* number = [options valueForKey:@"number"];
+    if(number == (NSString *)[NSNull null]) {
+        UIAlertView *InvalidNumber = [[UIAlertView alloc] initWithTitle:@"Phone Dialer" message:@"Unknow phone number" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [InvalidNumber show];
+        [InvalidNumber release];
+        return ;
+    }
     if([number hasPrefix:@"tel:"]) {
         url = number;
     }
