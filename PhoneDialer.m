@@ -18,7 +18,7 @@
     NSString* url;
     NSString* number = [options valueForKey:@"number"];
     if(number == (NSString *)[NSNull null]) {
-        UIAlertView *InvalidNumber = [[UIAlertView alloc] initWithTitle:@"Phone Dialer" message:@"Unknow phone number" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        UIAlertView *InvalidNumber = [[UIAlertView alloc] initWithTitle:@"Phone Dialer" message:@"Unknown phone number" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [InvalidNumber show];
         [InvalidNumber release];
         return ;
