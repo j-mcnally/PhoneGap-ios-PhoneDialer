@@ -22,5 +22,5 @@ cordova add plugin "current repo"
 Problem
 =======
 
-If you get this error : PhoneDialerPlugin[...] CDVPlugin class PhoneDialer (pluginName: PhoneDialer) does not exist. 
-Check if the PhoneDialer.m exist in the Compile Sources at "Build Phases section" on your xcode project.
+If you get this error : PhoneDialerPlugin[...] CDVPlugin class PhoneDialer (pluginName: PhoneDialer) does not exist.
+Check if the PhoneDialer.m exist in your xcode project: "Build Phases" Section -> "Compile Sources"
