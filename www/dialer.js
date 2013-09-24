@@ -6,7 +6,7 @@ module.exports = {
     /**
      * Call the native dialer
      *
-     * @param {String}      The phone number to call.
+     * @param {String, Function}      The phone number to call, The callback error function
      */
     dial: function(phnum, error) {
         if (phnum == null)
